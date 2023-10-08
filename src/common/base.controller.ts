@@ -19,7 +19,7 @@ export abstract class BaseController {
     }
 
     ok<T>(res: Response, message: T) {
-        return this.send<T>(res, 200, message)
+        return this.send<T>(res, 200, message);
     }
 
     created(res: Response) {
